@@ -48,9 +48,6 @@ int main(void) {
 	// システム初期化 -> 必ずいる！
 	SystemInit();
 
-	// 待機時間（ブートローダ待ち）
-	//Delay_Ms(100);					//
-
   	// SysTick初期設定(1ms割込設定)
 	systick_init();
 	
